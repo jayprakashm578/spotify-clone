@@ -1,0 +1,29 @@
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+  }
+
+  /* Chrome, Edge, Safari */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    cursor: pointer;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #222;
+    cursor: pointer;
+  }
+

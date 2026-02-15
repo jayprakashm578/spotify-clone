@@ -1,0 +1,54 @@
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.pad1{
+    padding: 2px;
+}
+.border-radius1{
+    border-radius: 15px;
+}
+
+.bg-black{
+    background-color: #000000;
+}
+
+.bg-grey{
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.gap1{
+    gap: 30px;
+}
+
+.pad-2{
+    padding: 20px;
+}
+
+.show{
+    left: 0;
+}
+
+.hide{
+    left: "-120%";
+}
+
