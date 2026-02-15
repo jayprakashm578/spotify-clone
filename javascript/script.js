@@ -57,8 +57,9 @@ const playMusic = (track, pause = false) => {
     track = decodeURIComponent(track.split("/").pop());
 
     // let audio=new Audio("/songs/"+track)
-    currentSong.src = `/${currFolder}/` + track;
-    console.log("Playing from:", `/${currFolder}/` + track);
+    currentSong.src = `/${currFolder}/` + encodeURIComponent(track);
+
+console.log("Playing from:", `/${currFolder}/` + encodeURIComponent(track));
 
 
     // Save current song
