@@ -58,6 +58,8 @@ const playMusic = (track, pause = false) => {
 
     // let audio=new Audio("/songs/"+track)
     currentSong.src = `/${currFolder}/` + track;
+    console.log("Playing from:", `/${currFolder}/` + track);
+
 
     // Save current song
     localStorage.setItem("currentSong", track);
