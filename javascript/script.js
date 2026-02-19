@@ -22,9 +22,9 @@ function secondsToMinutes(seconds) {
 
 async function getSongs(folder) {
     currFolder = folder;
+    console.log(folder)
     let a = await fetch(`/${folder}/`)
     let response = await a.text();
-
     let div = document.createElement("div");
     div.innerHTML = response;
     let as = div.getElementsByTagName("a")
@@ -128,7 +128,7 @@ async function displayAlbums() {
 async function main() {
 
     // Get all the songs
-    let savedFolder = localStorage.getItem("currentFolder") || "songs/ncs";
+    let savedFolder = localStorage.getItem("currentFolder");
     await getSongs(savedFolder);
 
     // Display  all the albums on the page
