@@ -10,10 +10,10 @@ https://spotify-clone-theta-orpin-85.vercel.app/
 ## 📸 Screenshots
 
 ### 🖥 Desktop View
-![Desktop View](./img/readme-desktop.png)
+![Desktop View](./img/spotify-desktop.png)
 
 ### 📱 Mobile View
-![Mobile View](./img/readme-mobile.png)
+![Mobile View](./img/spotify-mobile.png)
 
 ---
 
